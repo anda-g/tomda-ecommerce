@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
-  --bg-shade: #f0f0f0;
+  --bg-shade: #eeeffb;
   --grey-text: #888888;
   --accent: #ff007f;
   --white: #ffffff;
@@ -33,6 +33,63 @@
   list-style-type: none;
   text-decoration: none;
   overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--violet);
+}
+
+header article {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header article figure {
+  display: flex;
+  gap: 10px;
+  color: white;
+  align-items: center;
+}
+
+nav {
+  width: 100vw;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav div {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+nav div ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav div ul a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0d0e43;
 }
 
 .shadow {
@@ -95,4 +152,117 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 42px;
   font-weight: 700;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-shade);
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1170px;
+  padding: 64px 0px;
+}
+
+.input-wrapper {
+  width: 377px;
+  display: flex;
+  padding: 4px;
+  gap: 2px;
+  height: 40px;
+  background-color: white;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-wrapper input {
+  width: 70%;
+  padding-left: 8px;
+  border: 0px;
+}
+.input-wrapper input:focus {
+  outline: 0px;
+}
+
+.input-wrapper button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  background-color: var(--pink);
+  color: white;
+  padding: 0px 20px;
+  border-radius: 4px;
+}
+
+.footer-about {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-about address {
+  color: var(--sub-text-color);
+  line-height: 1.5;
+}
+
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.footer-wrapper nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+  gap: 32px;
+  width: fit-content;
+}
+
+.footer-wrapper nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-wrapper nav a {
+  color: var(--sub-text-color);
+}
+
+.end-footer {
+  background-color: #e7e4f8;
+  padding: 8px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1170px;
+}
+.end-footer span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9da0ae;
 }
