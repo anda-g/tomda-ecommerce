@@ -130,3 +130,137 @@ h1 {
   align-items: center;
   justify-content: end;
 }
+
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.feature-section h2 {
+  color: #1a0b5b;
+}
+
+.feature-section .products-container {
+  width: 100%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.feature-section .products-container .products-card {
+  height: 360px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 300ms;
+}
+
+.products-card .container-img {
+  height: 236px;
+  width: 100%;
+  background-color: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 4px;
+  position: relative;
+}
+
+.container-img .action-container {
+  display: none;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.products-card:hover {
+  background-color: #2f1ac4;
+}
+
+.products-card:hover .action-container {
+  display: flex;
+}
+
+.action-container .icon-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 300ms;
+}
+
+.icon-container:hover {
+  background-color: var(--bg-shade);
+}
+
+.icon-container a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0px;
+}
+
+.caption-container h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--pink);
+  transition: all ease-in-out 300ms;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.divider-item {
+  height: 4px;
+  width: 14px;
+  border-radius: 10px;
+}
+
+.divider-item:nth-child(1) {
+  background-color: #05e6b7;
+}
+.divider-item:nth-child(2) {
+  background-color: #f701a8;
+}
+.divider-item:nth-child(3) {
+  background-color: #00009d;
+}
+
+.caption-container span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text);
+  transition: all ease-in-out 300ms;
+}
+.caption-container .price {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.products-card:hover .caption-container h3,
+.products-card:hover .caption-container span {
+  color: white;
+}
