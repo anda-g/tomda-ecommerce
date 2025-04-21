@@ -35,6 +35,10 @@
   overflow-x: hidden;
 }
 
+.home {
+  color: #fb2e86;
+}
+
 header {
   width: 100vw;
   height: 44px;

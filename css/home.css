@@ -1,9 +1,5 @@
 @import url(./main.css);
 
-.home {
-  color: #fb2e86;
-}
-
 main {
   display: flex;
   flex-direction: column;
