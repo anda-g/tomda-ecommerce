@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --bg-shade: #f0f0f0;
+  --grey-text: #888888;
+  --accent: #ff007f;
+  --white: #ffffff;
+  --liner-bg: #f5f5f5;
+
+  --blue-gradient: linear-gradient(to right, #2196f3, #21cbf3);
+  --pink-gradient: linear-gradient(to right, #ff4081, #f50057);
+  --sky-blue-gradient: linear-gradient(to right, #00c6ff, #0072ff);
+  --mint-green-gradient: linear-gradient(to right, #a8e6cf, #00b894);
+
+  --ugsadug: #9c27b0;
+  --text: #0d0d5d;
+  --sky-blue: #00c6ff;
+  --section-hover: #3f51b5;
+  --sale-tag-color: #1e1edb;
+  --price-tag-color: #ff1744;
+  --violet: #9c27b0;
+
+  --sub-text-color: #8a8fb9;
+  --sub-text-color-alt: #999999;
+  --page-button-color: #d1c4e9;
+  --pink: #ff4081;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.shadow {
+  box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
+}
+
+.sasas {
+  box-shadow: 0px 4px 79px 0px rgba(126, 52, 224, 0.1);
+}
+
+.list-titles {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.paragraph-text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list-item {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.big-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.caption {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price-cut {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.caption-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}

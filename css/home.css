@@ -1,0 +1,132 @@
+@import url(./main.css);
+
+header {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--violet);
+}
+
+header article {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header article figure {
+  display: flex;
+  gap: 10px;
+  color: white;
+  align-items: center;
+}
+
+nav {
+  width: 100vw;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav div {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+nav div ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav div ul a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0d0e43;
+}
+
+.home {
+  color: #fb2e86;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.hero-section {
+  height: calc(100vh - 122px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f0ff;
+}
+
+.hero-section div {
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.hero-section div article {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  justify-content: center;
+}
+
+.hero-section div article span {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--accent);
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.hero-section div article p {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--sub-text-color);
+}
+
+.hero-section div article button {
+  height: 50px;
+  width: 163px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);
+  color: white;
+  border: 0px;
+}
+
+.hero-section div figure {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
