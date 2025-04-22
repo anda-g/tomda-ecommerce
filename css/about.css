@@ -156,3 +156,158 @@ main {
 .card-container:hover {
   border-bottom: solid #ff9100;
 }
+
+.information-section {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-wrapper {
+  height: 200px;
+  width: 100%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.information-text-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.information-text-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.information-text-des {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  color: var(--sub-text-color);
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 12px;
+}
+.icon-item {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+
+.icon-item:first-child {
+  background-color: #5625df;
+}
+.icon-item:nth-child(2) {
+  background-color: #ff27b7;
+}
+.icon-item:last-child {
+  background-color: #37daf3;
+}
+
+.contact-way {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 28px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-icon-container {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.icon-1 {
+  background-color: #5726df;
+}
+.icon-2 {
+  background-color: var(--pink);
+}
+.icon-3 {
+  background-color: #ffb265;
+}
+.icon-4 {
+  background-color: #1be982;
+}
+
+.contact-value {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  color: var(--sub-text-color);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+form > div {
+  display: flex;
+  gap: 20px;
+}
+
+form > div input {
+  width: 100%;
+}
+form input,
+textarea {
+  border-radius: 3px solid #a4b6c8;
+  padding-left: 20px;
+  height: 45px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+form textarea {
+  padding: 20px;
+  height: 166px;
+  resize: none;
+}
+
+form input::placeholder,
+textarea::placeholder {
+  color: var(--sub-text-color);
+}
+
+.form-img {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-img > img {
+  width: 100%;
+}
